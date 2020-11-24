@@ -409,7 +409,7 @@ body {
         font-size: 16px; }
 .header .main-header {
   height: 76px;
-  background: #fff;
+  background: #faecec;
   border-bottom: 1px solid #ddd; }
   .header .main-header .container {
     display: flex;
