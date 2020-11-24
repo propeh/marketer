@@ -1,0 +1,97 @@
+.header {
+  .top-header {
+    background: #343434;
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .sns-links {
+      display: flex;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        transition: 0.4s;
+         i {
+           font-size: 20px
+         }
+        &:hover {
+
+          &.twitter{
+            background: skyblue;
+          }
+          &.facebook {
+            background: royalblue;
+          }
+          &.instagram {
+            background: purple;
+          }
+          &.youtube {
+            background: #b10505;
+          }
+          &.skype {
+            background: deepskyblue;
+          }
+        }
+      }
+    }
+
+
+    .contact {
+      display: flex;
+      align-items: center;
+      p {
+        color: #fff;
+        + p {
+          margin-left: 30px;
+          font-size: 16px;
+
+        }
+        i {
+          margin-right: 6px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+
+  .main-header {
+    height: 76px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+
+    .logo {
+      width: 171.9px;
+    }
+    .gnb {
+      .gnb-menu {
+        display: flex;
+        li {
+          a {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 3;
+            display: block;
+            padding: 20px 15px;
+            &.home {
+              color: #3598db;
+            }
+            &:hover {
+              color: #3598db;
+            }
+          }
+        }
+      }
+    }
+  }
+}
